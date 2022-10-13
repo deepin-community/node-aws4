@@ -1,0 +1,1 @@
+mocha ./test/fast.js -b -t 100s

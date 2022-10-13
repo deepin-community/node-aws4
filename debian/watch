@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-aws4-$1/ \
+ https://github.com/mhart/aws4/tags .*/archive/.*/v?([\d\.]+).tar.gz

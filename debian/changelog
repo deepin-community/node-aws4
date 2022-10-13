@@ -1,0 +1,79 @@
+node-aws4 (1.11.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Mon, 15 Nov 2021 17:41:35 +0100
+
+node-aws4 (1.11.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * New upstream version 1.11.0
+  * Apply multi-arch hints (foreign)
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 24 Dec 2020 12:13:19 +0100
+
+node-aws4 (1.10.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * New upstream version 1.10.1
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 27 Aug 2020 22:29:47 +0200
+
+node-aws4 (1.10.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * New upstream version 1.10.0
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 23 May 2020 11:35:52 +0200
+
+node-aws4 (1.9.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.9.0
+  * Update test
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 03 Dec 2019 06:42:20 +0100
+
+node-aws4 (1.8.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Switch test and install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 18 Nov 2019 20:52:56 +0100
+
+node-aws4 (1.8.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.8.0
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+  * Use salsa.debian.org in Vcs-* fields
+  * Change section to javascript
+  * Enable nocheck build profile
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 18 Sep 2018 18:15:20 +0530
+
+node-aws4 (1.5.0-1) experimental; urgency=low
+
+  * Initial release (Closes: #850127)
+
+ -- Vinay Desai <desaivinay1997.debian@gmail.com>  Wed, 04 Jan 2017 10:47:25 +0000
